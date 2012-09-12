@@ -1,0 +1,19 @@
+body{font:normal 12px Arial, Helvetica, Sans serif;}
+.grid{width:600px;background-color:#CCC;font-size:12px;}
+.tleft{text-align:left;}
+.tright{text-align:right;}
+.tcenter{text-align:center;}
+.todd{background-color:#FFF;}
+.todd td, .tevent td{padding:2px;}
+.tevent{background-color:#F5F5F5;}
+
+/* Form */
+.frm_input{display:none;}
+.tb_form{width:600px;background-color:#F5F5F5;font-size:12px;padding:5px;}
+.tb_form .text_input{width:300px;}
+.tb_form .textarea{width:300px;height:40px;}
+
+/* Global */
+.w150{width:150px;}
+.w200{width:200px;}
+.w60{width:60px;}

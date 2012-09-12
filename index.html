@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Grid CURD</title>
+        <link href="asset/style.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="asset/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="asset/ajaxcurd.js"></script>
+    </head>
+    <body>
+        <a href="#" id="tambah">Tambah</a>
+        <form action="" method="post" id="frm_input" class="frm_input">
+            <table id="tb_form" class="tb_form">
+                <tr>
+                    <td>Name</td>
+                    <td>:</td>
+                    <td><input type="text" name="name" id="name" class="text_input" /></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="text" name="email" id="email" class="text_input" /></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>:</td>
+                    <td><input type="radio" name="gender" id="gender" value="1" checked="checked" /> Man <input type="radio" name="gender" id="gender" value="2" /> Women</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>:</td>
+                    <td><textarea name="address" id="address" class="textarea"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="submit" name="submit" id="submit" value="Submit" />
+                        <input type="reset" name="reset" id="reset" value="Cancel" />
+                        <input type="hidden" name="ids" id="ids" value="" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <!-- Grid layout -->
+        <table id="tb_grid" class="grid">
+        </table>
+    </body>
+</html>
