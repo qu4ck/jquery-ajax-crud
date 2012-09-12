@@ -1,1 +1,1 @@
-Simple jquery ajax CRUD
+Simple jquery ajax CRUD Visit Article http://bit.ly/NocqO3
